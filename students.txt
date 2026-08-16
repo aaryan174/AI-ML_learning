@@ -1,0 +1,1 @@
+S001|Aryan Patel|23|Male|MCA|1|aryan@gmail.com|2345678987|99.0|A+

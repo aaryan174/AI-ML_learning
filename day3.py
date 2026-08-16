@@ -25,4 +25,10 @@ def factorial():
         fac = fac * i
     print(fac)
 
-factorial()
+# factorial()
+income = int(input("enter you salary :"))
+def salary_calc():
+    
+    if (income >= 30000):
+        calc = income 
+        print("you have to pay 5%  tax of your salary", )
