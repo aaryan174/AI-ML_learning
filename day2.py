@@ -10,9 +10,16 @@
 # print("the avg of two number is:", avg, type(avg))
 
 
-#wap multipal of 5
+# #wap multipal of 5
+# a = int(input("Enter the number a:"))
+# if (a%5==0):
+#     print(a, "is a multiple of 5")
+# else:
+#     print(a, "is not multiple of 5")
+
 a = int(input("Enter the number a:"))
-if (a%5==0):
-    print(a, "is a multiple of 5")
+
+if (a%2==0):
+    print("even")
 else:
-    print(a, "is not multiple of 5")
+    print("odd")
