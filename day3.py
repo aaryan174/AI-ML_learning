@@ -10,11 +10,14 @@
 # if 'a' in string:
 #     print("o exists!!!")
 
-word = "Artificial Intelligent"
+# word = "Artificial Intelligent"
 
-ans = 0
+# ans = 0
 
-for ch in word:
-    if(ch == 'i'):
-        ans += 1
-print("count of i is:", ans)
+# for ch in word:
+#     if(ch == 'i'):
+#         ans += 1
+# print("count of i is:", ans)
+
+for i in range(1, 50, 3):
+    print(i)
