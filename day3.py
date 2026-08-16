@@ -5,7 +5,16 @@
 
 #use of (in) in conditional statement
 
-string = "hello"
+# string = "hello"
 
-if 'a' in string:
-    print("o exists!!!")
+# if 'a' in string:
+#     print("o exists!!!")
+
+word = "Artificial Intelligent"
+
+ans = 0
+
+for ch in word:
+    if(ch == 'i'):
+        ans += 1
+print("count of i is:", ans)
