@@ -18,6 +18,11 @@
 #     if(ch == 'i'):
 #         ans += 1
 # print("count of i is:", ans)
+n = int(input("enter the number"))
+def factorial():
+    fac = 1
+    for i in range(1, n+1):
+        fac = fac * i
+    print(fac)
 
-for i in range(1, 50, 3):
-    print(i)
+factorial()
