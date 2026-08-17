@@ -12,3 +12,12 @@ print(marks)
 
 marks.reverse()
 print(marks)
+
+x = 4564
+idx = 0
+
+for val in marks:
+    if(val == x):
+        print(f" x found at id={idx}")
+        break
+    idx += 1
