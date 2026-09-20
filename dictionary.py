@@ -1,10 +1,14 @@
 marks = {
     "aryan": 34,
-    "allo" : 56,
-    "halllo": 89,
-    0: "aryan"
+    "ary" : 56,
+    "dave": 89,
+    0: "aryan",
+    "age": [12,3,4,4,5,6]
 }
 
+
+for i in marks.items():
+    print(marks)
 
 print(marks.items())
 print(marks.keys())

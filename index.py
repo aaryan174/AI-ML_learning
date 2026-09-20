@@ -17,3 +17,5 @@ if marks >= 75 or CU_result == 'Pass':
     print(f"hi! {name} Welcome in chandigarh university. you are passsed")
 else:
     print(f"hi!! {name} fail ho gye bhai tum")
+    
+print("Helo world")
